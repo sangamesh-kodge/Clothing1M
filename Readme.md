@@ -58,7 +58,7 @@ The images in the directroy for each partition of the dataset are arranged in th
     ```bash
     git clone https://github.com/sangamesh-kodge/Clothing1M.git
     ```
-3. Download the dataset from the download link obtained in step 2 in the cloned repository from step 1. (Or move data after download. )
+3. Download the dataset from the download link obtained in step 1 in the cloned repository from step 2. (Or move data after download. )
 4. Unzip files in ```images/``` directory using ```tar -xf <file_name.tar>```. Additionally unzip file in the root directory using ```unzip <file_name.zip>```. (See the commented lines 20-29 in create_dataset.sh). At this stage the cloned repository should have ```images/``` directory containing raw images and files with the label information for each image. 
 5. Run the following command in your terminal/command contraining the cloned repository 
  
